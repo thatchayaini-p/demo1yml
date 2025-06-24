@@ -9,4 +9,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🚀 Parent workflow"
+      - run: echo "🚀 Parent workflow" 
