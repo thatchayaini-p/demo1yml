@@ -1,0 +1,13 @@
+name: Child 10 Workflow
+
+on:
+  workflow_run:
+    workflows: ["Child 9 Workflow"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Final Child 10 triggered after Child 9"
