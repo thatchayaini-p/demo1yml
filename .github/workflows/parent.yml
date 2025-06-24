@@ -2,7 +2,7 @@ name: Parent Workflow
 
 on:
   push:
-    branches:
+    branches: 
       - main 
 
 jobs:
